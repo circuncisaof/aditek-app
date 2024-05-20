@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="container_text_login_p">
+    <div class="container_text">
+      <h1>
+        Login
+      </h1>
+    </div>
+    <div class="container_text_p">
+      <p>
+        Bem vindo ao nosso sistema!
+      </p>
+    </div>
+  </div>
+  <form (ngSubmit)="logar()" [formGroup]="formGroup" #formDir="ngForm">
+    <div class="container_body_email_pass">
+      <div class="container_email">
+        <div class="container_email_text">
+            <h2>
+              E-mail
+            </h2>
+          <div class="container_email_input">
+            <input type="text" FormControlName="username" required>
+          </div>
+        </div>
+      </div>
+      <div class="container_pass">
+        <div class="container_pass_text">
+          <h2>
+            Senha
+          </h2>
+        </div>
+        <div class="container_pass_input">
+          <input type="password" FormControlName="password" required>
+          <img src="../../../assets/icon-box.png" alt="">
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="container_button_login">
+    <button type="submit">Entrar</button>
+  </div>
+  <div class="container_polity">
+    <a href="http://" target="_blank">Política de uso</a>
+  </div>
+</div>

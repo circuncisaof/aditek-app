@@ -1,0 +1,138 @@
+.container {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3AAF83;
+}
+
+.container_img {
+  width: 120px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_img img {
+  width: 96px;
+  height: 96px;
+  margin: 50px;
+  border-radius: 100%;
+}
+.container_user_def {
+display: flex;
+justify-content: center;
+align-items: center;
+  width: 333px;
+  height: 63px;
+}
+.container_user {
+  width: 400px;
+  height: 55px;
+  margin-top: 32px;
+}
+
+
+.container_user h2 {
+  width: 326px;
+  height: 44px;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.container_user_p {
+  width: 250px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container_user_p p{
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.container_user_logout {
+  width: 100px;
+  height: 100%;
+  margin-right: 50px;
+
+}
+
+.container_user_logout{
+  width: 18px;
+  height: 18px;
+  margin-top:52px
+}
+@media (max-width:430px) {
+  .container {
+    width: 430px;
+    height: 128px;
+
+  }
+
+  .container_img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .container_img  img {
+    width: 46.83px;
+    height: 46.83px;
+    border-radius: 100%;
+    margin:10px
+  }
+
+  .container_user_def {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      width: 333px;
+      height: 63px;
+      margin-top: 20px;
+    }
+    .container_user {
+      width: 400px;
+      height: 55px;
+      margin-top: 32px;
+    }
+
+
+    .container_user h2 {
+      width: 326px;
+      height: 44px;
+      font-size: 32px;
+      color: #FFFFFF;
+    }
+
+    .container_user_p {
+      width: 250px;
+      height: 19px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .container_user_p p{
+      font-size: 14px;
+      color: #FFFFFF;
+    }
+
+    .container_user_logout {
+      width: 100px;
+      height: 100%;
+      margin-right: 50px;
+
+    }
+
+    .container_user_logout{
+      width: 18px;
+      height: 18px;
+      margin-top:52px
+    }
+
+}
